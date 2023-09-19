@@ -1,0 +1,8 @@
+{
+    "server": "ExampleServerIP",
+    "server_port": 8388,
+    "password": "ExamplePassword",
+    "method": "aes-256-gcm",
+    "local_address": "127.0.0.1",
+    "local_port": 1080
+}

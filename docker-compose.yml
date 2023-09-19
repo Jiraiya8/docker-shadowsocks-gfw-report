@@ -1,0 +1,9 @@
+version: '3.3'
+services:
+  shadowsocks:
+    image: 'liyuanbiao/shadowsocks:gfw-report'
+    container_name: ss-gfw-report
+    restart: unless-stopped
+    volumes:
+      - '/etc/shadowsocks:/etc/shadowsocks'
+    command: -c /etc/shadowsocks/server.json
